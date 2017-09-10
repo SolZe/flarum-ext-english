@@ -16,41 +16,41 @@ core:
 
     # These translations are used in the Appearance page.
     appearance:
-      colored_header_label: Colored Header
-      colors_heading: Colors
-      colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
-      custom_header_heading: Custom Header
-      custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
-      custom_styles_heading: Custom Styles
-      custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
-      dark_mode_label: Dark Mode
-      edit_css_button: Edit Custom CSS
-      edit_header_button: Edit Custom Header
-      enter_hex_message: Please enter a hexadecimal color code.
+      colored_header_label: Színezett feljéc
+      colors_heading: Színek
+      colors_text: "Válassz kettő színt, amivel kiszínezed a fórumodat. Az első kijelölési szín lesz, a második pedig a háttérben található elemek színe lesz."
+      custom_header_heading: Egyéni fejléc
+      custom_header_text: "Ide add meg a HTML kódot, ami az oldal legtetején fog megjelenni, a Flarum saját feljéce felett."
+      custom_styles_heading: Egyéni stílus
+      custom_styles_text: Szabd testre a fórumod kinézetét LESS/CSS kód hozzáadásával, ami a Flarum alap stílusa felett lesz alkalmazva.
+      dark_mode_label: Sötét mód
+      edit_css_button: Egyedi CSS szerkesztése
+      edit_header_button: Egyéni fejléc szerkesztése
+      enter_hex_message: Kérlek írj be egy hexadecimális színkódot!
       favicon_heading: Favicon
-      favicon_text: Upload an image to be displayed as the forum's shortcut icon.
-      logo_heading: Logo
-      logo_text: Upload an image to be displayed in place of the forum title.
+      favicon_text: Tölts fel egy képet, ami a fórum ikonja lesz.
+      logo_heading: Logó
+      logo_text: Tölts fel egy képet, ami a fórum címének a helyén fog megjelenni.
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
-      default_language_heading: Default Language
-      forum_description_heading: Forum Description
-      forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
-      forum_title_heading: Forum Title
-      home_page_heading: Home Page
-      home_page_text: "Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root."
-      saved_message: Your changes were saved.
-      show_language_selector_label: Show language selector
+      default_language_heading: Alap nyelv
+      forum_description_heading: Fórum Leírása
+      forum_description_text: Írj egy-kettő rövid mondatot, ami leírja a közösségedet! Ez a meta tag-ben fog megjelenni és a keresőmotorokon is.
+      forum_title_heading: Fórum címe
+      home_page_heading: Főoldal
+      home_page_text: "Válaszd ki az oldalt, amit a felhasználóid először fognak látni, amikor meglátogatják a fórumodat. Ha egy saját értéket írsz be, az útvonal legyen relatív a fórum gyökérkönyvtárához!"
+      saved_message: A módosítások mentésre kerültek.
+      show_language_selector_label: Nyelvválasztó megjelenítése
       submit_button: => core.ref.save_changes
-      welcome_banner_heading: Welcome Banner
-      welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
+      welcome_banner_heading: Üdvözlőüzenet
+      welcome_banner_text: Állítsd be az üdvözlőüzenetet ami megjelenik az Összes beszélgetés oldal tetején. Használd ezt a látogatók üdvözlésére
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "This <strong>beta software</strong> is provided primarily so that you can help us test it and make it better; it should not be used in production."
+      beta_warning_text: "Ez a <strong>beta szoftver</strong> főleg azért lett kiadva, hogy segíts nekünk tesztelni és jobbá tenni, ezért nem ajánlott élesben használni."
       contributing_text: "Want to look for bugs and contribute? Read the <a>Contributing docs</a>."
       extension_text: "Interested in developing extensions? Read the <a>Extension docs</a>."
       features_text: "Got an idea to improve a feature? Tell us about it under the <a>Features tag</a>."
