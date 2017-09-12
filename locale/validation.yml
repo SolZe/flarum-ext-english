@@ -1,3 +1,5 @@
+# Fordította: MrZsemle és Solinu
+
 validation:
   accepted: "A(z) :attribute elfogadva."
   active_url: "A(z) :attribute nem érvényes URL."
@@ -54,24 +56,24 @@ validation:
   required: "A(z) :attribute szükséges kitölteni."
   required_if: "A(z) :attribute kötelező, ha :other :value."
   required_unless: "A(z) :attribute kötelező, kivéve ha :other benne van ebben: :values."
-  required_with: "A(z) :attribute mező kötelező, ha :values present."
-  required_with_all: "The :attribute field is required when :values is present."
-  required_without: "The :attribute field is required when :values is not present."
-  required_without_all: "The :attribute field is required when none of :values are present."
-  same: "The :attribute and :other must match."
+  required_with: "A(z) :attribute mező kötelező, ha :values jelen van."
+  required_with_all: "A(z) :attribute mező kötelező, ha a(z) :values közül mind jelen van."
+  required_without: "A(z) :attribute mező kötelező, ha a(z) :values nincs jelen."
+  required_without_all: "A(z) :attribute mező kötelező, ha a(z) :values közül egyik sincs jelen."
+  same: "A(z) :attribute -nak/-nek és :other -nak/-nek egyeznie kell."
   size:
-    numeric: "The :attribute must be :size."
-    file: "The :attribute must be :size kilobytes."
-    string: "The :attribute must be :size characters."
-    array: "The :attribute must contain :size items."
-  string: "The :attribute must be a string."
-  timezone: "The :attribute must be a valid zone."
-  unique: "The :attribute has already been taken."
-  uploaded: "The :attribute failed to upload."
-  url: "The :attribute format is invalid."
+    numeric: "A(z) :attribute -nak/-nek :size -nak/-nek kell lennie."
+    file: "A(z) :attribute -nak/-nek :size kilobájtnak kell lennie."
+    string: "A(z) :attribute -nak/-nek :size karakternek kell lennie."
+    array: "A(z) :attribute -nak/-nek :size tárgyat kell tartalmaznia."
+  string: "A(z) :attribute -nak/-nek karakterláncnak kell lennie."
+  timezone: "A(z) :attribute -nak/-nek érvényes zónának kell lennie."
+  unique: "A(z) :attribute már foglalt."
+  uploaded: "A(z) :attribute feltöltése nem sikerült."
+  url: "A(z) :attribute format formátum érvénytelen."
 
   attributes:
-    username: felhasználóné
+    username: felhasználónév
     password: jelszó
     email: email
     title: cím
