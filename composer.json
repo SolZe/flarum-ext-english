@@ -2,15 +2,13 @@
     "name": "SolZe/flarum-ext-hungarian",
     "type": "flarum-extension",
     "description": "Hungarian language pack.",
+    "homepage": "https://github.com/SolZe/flarum-ext-hungarian",
     "keywords": ["locale"],
     "license": "MIT",
     "require": {
         "flarum/core": "^0.1.0-beta.7"
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "0.1.x-dev"
-        },
         "flarum-extension": {
             "title": "Magyar",
             "icon": {
@@ -22,7 +20,7 @@
         },
         "flarum-locale": {
             "code": "hu",
-            "title": "Hungarian"
+            "title": "Magyar"
         }
     }
 }
