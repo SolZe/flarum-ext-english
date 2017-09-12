@@ -4,6 +4,8 @@ flarum-tags:
   # UNIQUE KEYS - The following keys are used in only one location each.
   ##
 
+  # Fordította: Solinu
+
   # Translations in this namespace are used by the admin interface.
   admin:
 
@@ -13,36 +15,36 @@ flarum-tags:
 
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
-      color_label: Color
-      delete_tag_button: Delete Tag
-      delete_tag_confirmation: "Are you sure you want to delete this tag? The tag's discussions will NOT be deleted."
-      description_label: Description
-      hide_label: Hide from All Discussions
+      color_label: Szín
+      delete_tag_button: Címke törlése
+      delete_tag_confirmation: "Biztosan ki szeretnéd törölni ezt a címkét? A címke beszélgetései NEM lesznek kitörölve."
+      description_label: Leírás
+      hide_label: Elrejtés az Összes beszélgetés oldalról
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
-      slug_label: Slug
+      slug_label: Keresőbarát név
       submit_button: => core.ref.save_changes
       title: => flarum-tags.ref.create_tag
 
     # These translations are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: Manage the list of tags available to organise discussions with.
+      tags_text: Elérhető címkék listájának kezelése, amivel a beszélgetések elrendezhetőek.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_edit_tags_label: Allow tag editing
-      restrict_by_tag_heading: Restrict by Tag
-      tag_discussions_label: Tag discussions
+      allow_edit_tags_label: Címke szerkesztésének engedélyezése
+      restrict_by_tag_heading: Beállítás címkénként
+      tag_discussions_label: Beszélgetések felcímkézése
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
-      range_separator_text: " to "
-      required_primary_heading: Required Number of Primary Tags
-      required_primary_text: Enter the minimum and maximum number of primary tags that may be applied to a discussion.
-      required_secondary_heading: Required Number of Secondary Tags
-      required_secondary_text: Enter the minimum and maximum number of secondary tags that may be applied to a discussion.
-      title: Tag Settings
+      range_separator_text: " -tól/-től "
+      required_primary_heading: Kötelező elsődleges címkék száma
+      required_primary_text: Írd be az elsődleges címkék minimum és maximum mennyiségét, amivel meg lehet jelölni egy beszélgetést.
+      required_secondary_heading: Kötelező másodlagos címkék száma
+      required_secondary_text: Írd be a másodlagos címkék minimum és maximum mennyiségét, amivel meg lehet jelölni egy beszélgetést.
+      title: Címke beállításai
 
     # These translations are used in the Tags page.
     tags:
